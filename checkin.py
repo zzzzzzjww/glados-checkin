@@ -1,5 +1,4 @@
 
-import requests
 # server酱开关，填0不开启(默认)，填1只开启cookie失效通知，填2同时开启cookie失效通知和签到成功通知
 sever = '2'
 # 填写server酱sckey,不开启server酱则不用填

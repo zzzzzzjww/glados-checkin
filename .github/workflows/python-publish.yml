@@ -26,6 +26,6 @@ jobs:
         
     - name: Checkin
       run: |
-        python3 checkin.py.py <<EOF
+        python3 checkin.py <<EOF
         ${{ secrets.cookie }}
         EOF

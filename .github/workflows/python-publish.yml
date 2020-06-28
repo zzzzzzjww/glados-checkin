@@ -26,11 +26,7 @@ jobs:
         
     - name: Checkin
       run: |
-        python3 checkin.py <<EOF
-        ${{ secrets.sever }}
-        ${{ secrets.sckey }}
-        ${{ secrets.cookie }}
-        EOF
+        python3 checkin.py 
       env: 
         SERVE: ${{ secrets.sever }}
         SCKEY: ${{ secrets.sckey }}

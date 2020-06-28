@@ -1,4 +1,4 @@
-import requests,json，os
+import requests,json,os
 # server酱开关，填off不开启(默认)，填on同时开启cookie失效通知和签到成功通知
 sever =  os.environ["${{ secrets.sever}}"]
 # 填写server酱sckey,不开启server酱则不用填
@@ -31,3 +31,4 @@ def main_handler(event, context):
 
 if __name__ == '__main__':
   start()
+

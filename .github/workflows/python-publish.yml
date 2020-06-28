@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: 0 2,14 * * *
+    - cron:  0 16 * * * 
 
 jobs:
   build:
@@ -26,4 +26,8 @@ jobs:
         
     - name: Checkin
       run: |
-        python3 checkin.py 
+        python3 checkin.py <<EOF
+        ${{ secrets.sever }}
+        ${{ secrets.sckey }}
+        ${{ secrets.cookie }}
+        EOF

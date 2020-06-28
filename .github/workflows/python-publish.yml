@@ -31,3 +31,7 @@ jobs:
         ${{ secrets.sckey }}
         ${{ secrets.cookie }}
         EOF
+      env: 
+        SERVE: ${{ secrets.sever }}
+        SCKEY: ${{ secrets.sckey }}
+        cookie: ${{ secrets.cookie }}

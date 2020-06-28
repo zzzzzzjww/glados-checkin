@@ -25,7 +25,7 @@ jobs:
         pip3 install -r requirements.txt
         
     - name: Checkin
-      run: |
+      run: 
         python3 checkin.py 
       env: 
         SERVE: ${{ secrets.SERVE }}

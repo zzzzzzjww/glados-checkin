@@ -2,7 +2,7 @@ import requests,json,os
 
 
 
-def start(serve,sckey,cookie):
+def start(sever,sckey,cookie):
     url= "https://glados.rocks/api/user/checkin"
     url2= "https://glados.rocks/api/user/status"
     referer = 'https://glados.rocks/console/checkin'
@@ -33,4 +33,6 @@ if __name__ == '__main__':
 # 填入glados账号对应cookie
     cookie =  os.environ["COOKIE"]
 #'__cfduid=d3459ec306384ca67a65170f8e2a5bd561593049467; _ga=GA1.2.766373509.1593049472; _gid=GA1.2.1338236108.1593049472; koa:sess=eyJ1c2VySWQiOjQxODMwLCJfZXhwaXJlIjoxNjE4OTY5NTI4MzY4LCJfbWF4QWdlIjoyNTkyMDAwMDAwMH0=; koa:sess.sig=6qG8SyMh_5KpSB6LBc9yRviaPvI'
-    start(serve,sckey,cookie)
+    start(sever,sckey,cookie)
+
+    

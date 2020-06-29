@@ -1,4 +1,10 @@
-glados-checkin
+# glados-checkin
+  每天自动签到（天数+1），自动推送结果  
+
+# clash 使用教程：  
+  http://www.xmstudent.ml/post-24.html
+
+
 # glados 注册
 > [注册链接：https://glados.rocks/](https://glados.rocks/)   
 注：注册后送三天，包月（10g），如果是教育邮箱可以使用教育plan（360天）（50g）   
@@ -10,10 +16,10 @@ glados-checkin
 ![](http://tu.yaohuo.me/imgs/2020/06/f059fe73afb4ef5f.png)
 ## 二、设置账号密码
 
-添加名为——值分别为
-**SERVE**——**on/off** 你想你的serve酱开不开启通知  
-**SCKEY**——**sckey**  你的serve酱的sckey  
-**COOKIE**—— **cookie** 弄上你账号的cookie  
+添加名为——值分别为：  
+**SERVE**  ——**on/off** 你想你的serve酱开不开启通知  
+**SCKEY**  ——**sckey**  开的话填你的serve酱的sckey，不开就不填   
+**COOKIE** —— **cookie** 弄上你账号的cookie  
 暂不支持多账号，懒得弄
 ![](http://tu.yaohuo.me/imgs/2020/06/748bf9c0ca6143cd.png)
 
@@ -26,10 +32,10 @@ glados-checkin
 Actions > Cloud189Checkin > build  
 能看到如下图所示，表示成功，或者看你微信通知  
 ![](http://tu.yaohuo.me/imgs/2020/06/b9e596c99f3835e0.png)
-![](http://tu.yaohuo.me/imgs/2020/06/289432b53bded61c.png)
-
-#腾讯云函数
+![](http://tu.yaohuo.me/imgs/2020/06/289432b53bded61c.png)  
+  
+# 腾讯云函数
 复制py代码，将三个参数自行修改  
 
 此后，将会在每天7:00签到一次  
-若有需求，可以在[.github/workflows/run.yml]中自行修改
+若有需求，可以在[.github/workflows/run.yml]中自行修改  

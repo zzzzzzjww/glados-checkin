@@ -7,7 +7,7 @@
 
 # glados 注册
   [注册链接：https://glados.rocks/](https://glados.rocks/)   
-  注：注册后送三天，包月（10g），如果是教育邮箱可以使用教育plan（360天）（50g）  
+  注：先复制下面激活码，注册后送15天，包月（10g），如果是教育邮箱可以使用教育plan（360天）（50g）  
   填写激活码：  **LMKGQ-4DJ97-XDQFX-VYUY4** 获得15天   
   我相信你们人手一堆教育邮箱，这个网站风控一点都不严  
 ![](http://tu.yaohuo.me/imgs/2020/06/ed0e944eec323a16.png)
@@ -37,6 +37,7 @@ Actions > Cloud189Checkin > build
   
 # 腾讯云函数
 复制py代码，将三个参数自行修改  
+
 
 
 

@@ -4,7 +4,7 @@ sever = '2'
 # 填写server酱sckey,不开启server酱则不用填（自己更改）
 sckey = 'SCU89402Tf98b7f01ca3394b9ce9aa5e2ed1a****************'
 # 填入glados账号对应cookie
-cookie = '__cfduid=d825014ac33b402b3f**************; _ga=GA1.2.328279**************; _gid=GA1.2.129884617********; _gat_gtag_UA_104464600_2=1; koa:sess=eyJ1c2*******waXJlIjoxNjE5NDM4NzE4MTE5LCJfbWF4QWdlIjoyNTkyMDAwMDAwMH0=; koa:sess.sig=aI-K2h40bGfgoa7jPeWwyj1eNMs'
+cookie = '__cfduid=d825014ac33b402b3f**************'
 referer = 'https://glados.rocks/console/checkin'
 
 def start():

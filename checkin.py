@@ -16,9 +16,11 @@ def start():
     
     url= "https://glados.rocks/api/user/checkin"
     url2= "https://glados.rocks/api/user/status"
+    origin = "https://glados.rocks"
     referer = 'https://glados.rocks/console/checkin'
-    checkin = requests.post(url,headers={'cookie': cookie ,'referer': referer })
-    state =  requests.get(url2,headers={'cookie': cookie ,'referer': referer})
+    user-agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36'
+    checkin = requests.post(url,headers={'cookie': cookie ,'referer': referer,'origin':origin,'user-agent':user-agent})
+    state =  requests.get(url2,headers={'cookie': cookie ,'referer': referer,'origin':origin,'user-agent':user-agent})
    # print(res)
 
     if 'message' in checkin.text:
